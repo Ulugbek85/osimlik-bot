@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: osimlik-bot
+    env: python
+    buildCommand: ""
+    startCommand: python osimlik_bot.py
+    repo: https://github.com/Ulugbek85/osimlik-bot
+    branch: main
+    autoDeploy: true
